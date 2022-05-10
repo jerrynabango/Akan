@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Akan Name Generator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/bootstrap.js">
+    </script>
+    <script src="js/scripts.js">
+    </script>
+  </head>
+  <body>
+    <div class="jumbotron text-center" style="margin-bottom:20px">
+              <h1>AKAN NAME GENERATOR</h1>
+      <p class="par"><em>Wo din de den</em>!</p>
+      <marquee> AKWAABA</marquee>
+    <marquee direction="right" 
+        behavior="alternate" 
+        style="border:BLACK 2px SOLID">
+        AKAN CLAN
+    </marquee>
+    </div>
+    <div class="container" style="margin-top:20px">
+      <div class="row">
+        <div class="col-sm-8">
+
+          <div class="Introduction">
+            <h2 class="h2"><strong>Introduction</strong></h2>
+            <p>The Akan is the largest ethnic group in Ghana which comprises of many clans,who speak the Twi-Fante language and also found in some parts of Cote d'Ivore.
+              The Akan names are derived from the Ghanian Culture.In Ghana children are usually given their first names as 'day name' which actually corresponds to the day of the week they were born.
+              Most of the people do know when their birthday's are,but some might not know what day of the week they were born.
+              Luckily for us,there are ways to calculate the day of the week from specific date. 
+
+            <div class="row ghanaian-names">
+              <div class="col-md-6">
+                <h4 class="ffemale">Female</h4>
+                <ul class="fs11">
+                  <li>Sunday: Akosua</li>
+                  <li>Monday: Adwoa</li>
+                  <li>Tuesday: Abenaa</li>
+                  <li>Wednesday: Akua</li>
+                  <li>Thursday: Yaa</li>
+                  <li>Friday: Afua</li>
+                  <li>Saturday: Ama</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <h4 class="fmale">Male</h4>
+                <ul class="fs11">
+                  <li>Sunday: Kwasi</li>
+                  <li>Monday: Kwadwo</li>
+                  <li>Tuesday: Kwabena</li>
+                  <li>Wednesday: Kwaku</li>
+                  <li>Thursday: Yaw</li>
+                  <li>Friday: Kofi</li>
+                  <li>Saturday: Kwame</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <h2 class="h2"><strong>INPUT DETAILS</strong></h2>
+          <div class="radio radio-default">
+            <label for="Name">Name</label>
+            <input text="radio" id="Name" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <form class="form" onsubmit="getAkanName()">
+              <label for="date" class="input-group">Date of Birth:</label>
+              <input type="date" class="form-control mb-2 mr-sm-2" placeholder="mm/dd/yyyy" id="myBirthDate" name="date" autocomplete="off">
+          </div>
+          <label class="label">Gender</label>
+          <div class="rdio rdio-default">
+            <input type="radio" name="gender" id="male" value="Male">
+            <label for="male">Male</label>
+          </div>
+          <div class="rdio rdio-default">
+            <input type="radio" name="gender" value="Female" id="female">
+            <label for="female">Female</label>
+          </div>
+          <br>
+          <br>
+          <button type="button" class="btn btn-primary mb-2" onclick="getAkanName()">Submit</button>
+          <div class="output">
+            <p id="message"></p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+<footer>
+    <div class="jumbotron text-center" style="margin-bottom:20px">
+      <p>Site created by Jerry Nabango.
+        Copyright&copy;2020.All rights reserved.
+        P.O BOX:999666,Nairobi,Kenya.
+      </p>
+    </div>
+  </footer>
+</div>
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>
