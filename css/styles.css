@@ -13,7 +13,6 @@ body {
   margin: 0;
     padding: 0;
     background-image: url(../css/AKAN.jpg);
-    background-color: blue;
     background-position: center;
     background-size: cover;
     
@@ -35,7 +34,7 @@ h1 {
 
 .par {
   color: black;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bolder;
 }
 .h2 {
@@ -48,6 +47,9 @@ ul {
 span {
   color: yellowgreen;
   font-size: 36x;
+}
+h4 {
+  font-size: 30px;
 }
 .alert {
   color: red;
